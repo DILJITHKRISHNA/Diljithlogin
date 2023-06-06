@@ -1,0 +1,87 @@
+{{>header}}
+{{!-- //////////////////////////// --}}
+{{!-- navebar --}}
+<div class="collapse" id="navbarToggleExternalContent">
+  <div class="bg-dark p-4">
+    <h5 class="text-white h4">Collapsed content</h5>
+    <span class="text-muted">Toggleable via the navbar brand.</span>
+  </div>
+</div>
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+{{!-- ////////////////////////////////// --}}
+<section class="vh-100 pt-5" id="fulscn">
+  <div class="container-fluid  ">
+    <div class="row d-flex justify-content-center align-items-center vh-100">
+      <div class="col-md-9 col-lg-6 col-xl-5">
+        <h3 style="color: azure;">PS5</h3>
+        <h3>__________________________________________________________________________________________________________</h3>
+        <img
+          src="https://media.wired.com/photos/6189e5b0748096a2f3317edd/master/w_2560%2Cc_limit/Gear-Xbox-vs-PS5-1230432282.jpg"
+          class="img-fluid" alt="Sample image">
+      </div>
+      <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+        <form action="/login" method="post">
+         
+
+          <div class=" d-flex align-items-center my-4">
+            <p class="head text-center">Here we go...</p>
+          </div>
+
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="text" id="username" class="form-control form-control-lg" class="username" name="username"
+              placeholder="Enter a valid email address" required>
+
+
+            <label class="fsz">Email address</label>
+          </div>
+
+    <!-- Remind Passowrd -->
+
+  
+
+           {{!-- Password input  --}}
+           <div class="form-outline mb-3">
+            <input type="password" id="password" class="form-control form-control-lg" name="password" required
+              placeholder="Enter password">
+
+            <label class="fsz">Password</label>
+    
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+
+          </div>
+  </div>
+          <div class="d-flex justify-content-between align-items-center"> 
+
+        </div>
+
+            <div class="text-center text-lg-start mt-4 pt-2">
+              <button type="submit" id="btnlog" class="btn btn-lg"
+                style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+
+            </div>
+</div> 
+            <h3>__________________________________________________________________________________________________________</h3>
+            
+         
+          </div> 
+          {{#if login}}
+          <div class="alert alert-danger text-center mb-3">{{login}}
+            {{/if}}
+          </div>
+
+      </div>
+      </form>
+    </div>
+  </div>
+  </div>
+</section>
+
+{{>footer}}

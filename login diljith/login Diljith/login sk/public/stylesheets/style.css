@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+
+}
+
+
+.bg-image {
+  background-image: url('../images/wp2939910-login-wallpaper.jpg');
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,54,1) 46%, rgba(8,131,51,1) 52%, rgba(0,212,255,1) 100%);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.login-heading {
+  font-weight: 300;
+  font-weight: bold;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+.navbar-brand{
+  font-size: larger;
+}
+#fulscn{
+  height: 130vh;
+
+  background-color:black;
+}
+.fsz{
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+}
+.head{
+  color: white;
+  font-size: larger;
+    font-weight: 900;
+}
+
+
+#backgroundclr{
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(130, 139, 140);
+}
+#btnlog{
+  background-color: bisque;
+}
+
+.card img {
+  height: 20rem;
+  width: 14rem;
+    margin-left: 2.5rem;
+}
+
+
+/* /////////////////////////// */
